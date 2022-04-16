@@ -1,0 +1,5 @@
+1. const PI = 3.14.
+2. var is global scope, can redeclare
+3. const is block scope, cannot redeclare or reassign
+4. both are block scope, let is more flexible with reassigning
+5. hoisting is when var is declared at the top of js document duringe compile.
