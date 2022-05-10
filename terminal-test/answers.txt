@@ -1,0 +1,22 @@
+1/
+1. mkdir first
+2. cd first/
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first second
+rmdir second
+
+2/
+1. man = show manual. scroll with mouse, exit with 'q'.
+2. -a - includes hidden files. -l - shows long format.
+3. option and left or right.
+4. ctrl + e
+5. ctrl + a
+6. ctrl + w
+7. terminal runs the shell program
+8. a full directory list
+9. directory relative to current spot
+10. modifier for command, -a, -l, -r.
+11. removes directory and contents with no prompt.
