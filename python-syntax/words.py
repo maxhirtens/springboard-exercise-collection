@@ -12,5 +12,5 @@ def print_upper2(words):
 def print_upper3(words, letter):
   '''For a list of words, prints them in all uppercase if they start with e/E'''
   for word in words:
-    if word.startswith(letter) or word.startswith(letter.upper()):
+   if word.startswith(letter) or word.startswith(letter.upper()):
       print(word.upper())
