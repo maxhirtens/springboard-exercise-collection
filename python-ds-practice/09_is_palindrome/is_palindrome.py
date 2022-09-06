@@ -1,3 +1,6 @@
+from operator import truediv
+
+
 def is_palindrome(phrase):
     """Is phrase a palindrome?
 
@@ -21,3 +24,5 @@ def is_palindrome(phrase):
         >>> is_palindrome('Noon')
         True
     """
+    edited_phrase = phrase.lower().replace(' ', '')
+    print(True) if edited_phrase == edited_phrase[::-1] else print(False)
