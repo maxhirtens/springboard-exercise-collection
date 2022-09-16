@@ -1,0 +1,5 @@
+1. git branch 'new branch name'
+2. git uses fast-forward when it can just place commits on top of each other
+3. git checkout
+4. git branch -D
+5. when 2 branches have different code in the same section (like this)
