@@ -1,0 +1,10 @@
+body  {
+  background-color: blanchedalmond;
+}
+
+section p {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: tomato;
+}

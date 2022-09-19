@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}You're done!{% endblock %}
+
+{% block content %}
+  <h1>{{survey.title}}</h1>
+  <p>Thanks for completing the {{survey.title}}.</p>
+  <p>Go <a href="/">home.</a></p>
+
+{% endblock %}
