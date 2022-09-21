@@ -1,0 +1,22 @@
+<style>
+  body {
+    font-family: sans-serif;
+  }
+
+  fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em
+  }
+
+  fieldset label {
+    font-weight: bold;
+  }
+</style>
+
+{# For demo purposes, show our sessions #}
+{% if session %}
+  <fieldset>
+    <label>Flask Session</label>
+    {{ session }}
+  </fieldset>
+{% endif %}
