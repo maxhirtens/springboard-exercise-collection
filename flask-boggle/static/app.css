@@ -1,0 +1,47 @@
+body  {
+  background-color: aquamarine;
+  font-size: 1.5rem;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  justify-self: center;
+}
+
+.board  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+table {
+  border: 3px solid white;
+  border-radius: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  color: rgb(55, 1, 1);
+}
+
+tr, td {
+  padding: 14px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+input {
+  font-size: 1rem;
+  margin-right: 10px;
+}
