@@ -5,5 +5,3 @@ from boggle import Boggle
 
 
 # class FlaskTests(TestCase):
-
-    #-- write tests for every view function / feature!

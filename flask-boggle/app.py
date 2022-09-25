@@ -9,6 +9,7 @@ from boggle import Boggle
 
 boggle_game = Boggle()
 
+# 127.0.0.1:5000/
 @app.route('/')
 def make_board():
     '''makes a game board when you visit'''
@@ -17,7 +18,7 @@ def make_board():
     return render_template('index.html', board=board)
 
 @app.route('/check-word')
-def check_for_word():
+def check_word():
     '''uses boggle method to find a word'''
     word = request.args['word']
     board = session['board']
