@@ -1,0 +1,6 @@
+{% extends 'base.html' %} {%block title%}Blogly{% endblock %} {% block content
+%}
+<h1>User List Test</h1>
+{% for user in users %}
+<li>{{ user.first_name }} {{ user.last_name }}</li>
+{% endfor %} {% endblock %}
