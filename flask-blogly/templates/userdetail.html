@@ -10,7 +10,16 @@ block content %}
       Delete
     </button>
   </form>
+  <h2>Posts</h2>
+  <ul>
+    {% for post in user.posts %}
+    <li><a href="/posts/{{post.id}}">{{post.title}}</a></li>
+    {% endfor %}
+  </ul>
 </div>
+<form action="/users/{{user.id}}/posts/new">
+  <button>Add a Post by {{user.first_name}}</button>
+</form>
 <br />
 <a href="/">Home</a>
 {% endblock %}
