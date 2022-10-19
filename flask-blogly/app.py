@@ -68,7 +68,7 @@ def update_user(user_id):
 
   user = User.query.get_or_404(user_id)
   user.first_name = request.form['firstname']
-  user.last = request.form['lastname']
+  user.last_name = request.form['lastname']
   user.image_url = request.form['image'] or None
 
   db.session.add(user)
